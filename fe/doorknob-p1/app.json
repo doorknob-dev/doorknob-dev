@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "doorknob-p1",
+    "slug": "doorknob-p1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconO.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "scheme":"doorknob-p1",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon1.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler":"metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
