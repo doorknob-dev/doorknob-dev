@@ -43,7 +43,7 @@ app.use("/listings",getListingsDetails.router)
 app.use("/messages",createDirectMessage.router)
 app.use("/messages",getAllUserMessage.router)
 
-initializeWebSocket(server);
+require('../bk/messages/getDirectMessage').initializeWebSocket(server);
 
 
 app.listen(5001, () => {
